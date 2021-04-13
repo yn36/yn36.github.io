@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>丫牛的博客</title>
+  
+  <subtitle>YN36</subtitle>
+  <link href="https://yn36.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yn36.github.io/"/>
+  <updated>2021-04-13T14:29:56.545Z</updated>
+  <id>https://yn36.github.io/</id>
+  
+  <author>
+    <name>YN</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我对编程的理解</title>
+    <link href="https://yn36.github.io/2021/04/13/about/"/>
+    <id>https://yn36.github.io/2021/04/13/about/</id>
+    <published>2021-04-13T09:14:08.000Z</published>
+    <updated>2021-04-13T14:29:56.545Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="对编程的理解"><a href="#对编程的理解" class="headerlink" title="对编程的理解"></a><div system="text-align: center;">对编程的理解</div></h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;对编程的理解&quot;&gt;&lt;a href=&quot;#对编程的理解&quot; class=&quot;headerlink&quot; title=&quot;对编程的理解&quot;&gt;&lt;/a&gt;&lt;div system=&quot;text-align: center;&quot;&gt;对编程的理解&lt;/div&gt;&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

@@ -6,7 +6,7 @@
   <link href="https://yn36.github.io/atom.xml" rel="self"/>
   
   <link href="https://yn36.github.io/"/>
-  <updated>2021-04-13T14:29:56.545Z</updated>
+  <updated>2021-04-14T12:58:21.771Z</updated>
   <id>https://yn36.github.io/</id>
   
   <author>
@@ -17,18 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>为什么选择Rust</title>
+    <link href="https://yn36.github.io/2021/04/14/whyRust/"/>
+    <id>https://yn36.github.io/2021/04/14/whyRust/</id>
+    <published>2021-04-14T03:45:29.000Z</published>
+    <updated>2021-04-14T12:58:21.771Z</updated>
+    
+    <content type="html"><![CDATA[<p>当今编程语言多之又多，</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;当今编程语言多之又多，&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Rust" scheme="https://yn36.github.io/categories/Rust/"/>
+    
+    
+    <category term="Rust" scheme="https://yn36.github.io/tags/Rust/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我对编程的理解</title>
     <link href="https://yn36.github.io/2021/04/13/about/"/>
     <id>https://yn36.github.io/2021/04/13/about/</id>
     <published>2021-04-13T09:14:08.000Z</published>
-    <updated>2021-04-13T14:29:56.545Z</updated>
+    <updated>2021-04-14T12:58:21.771Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="对编程的理解"><a href="#对编程的理解" class="headerlink" title="对编程的理解"></a><div system="text-align: center;">对编程的理解</div></h1>]]></content>
+    <content type="html"><![CDATA[<h2 id="什么是编程"><a href="#什么是编程" class="headerlink" title="什么是编程"></a>什么是编程</h2><blockquote><p>&nbsp;&nbsp; &nbsp;&nbsp; 编程是编定<a class="link"   href="https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F/71525" >程序<i class="fas fa-external-link-alt"></i></a>的中文简称，就是让<a class="link"   href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA/140338" >计算机<i class="fas fa-external-link-alt"></i></a>代码解决某个问题，对某个计算体系规定一定的运算方式，使计算体系按照该计算方式运行，并最终得到相应结果的过程。</p></blockquote><blockquote><p>&nbsp;&nbsp; &nbsp;&nbsp; 为了使计算机能够理解人的<a class="link"   href="https://baike.baidu.com/item/%E6%84%8F%E5%9B%BE/1061358" >意图<i class="fas fa-external-link-alt"></i></a>，人类就必须将需解决的问题的思路、方法和手段通过计算机能够理解的形式告诉计算机，使得计算机能够根据人的<a class="link"   href="https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4/3225201" >指令<i class="fas fa-external-link-alt"></i></a>一步一步去工作，完成某种特定的任务。这种人和计算体系之间交流的过程就是编程。</p></blockquote><h2 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h2><p><strong><a class="link"   href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/5581937" >编程语言<i class="fas fa-external-link-alt"></i></a>能够实现人与机器之间的交流和沟通，而计算机编程语言主要包括汇编语言、机器语言以及高级语言，具体内容如下：</strong></p><h3 id="汇编语言"><a href="#汇编语言" class="headerlink" title="汇编语言"></a><strong>汇编语言</strong></h3><blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;该语言主要是以缩写英文作为标符进行编写的，运用<a class="link"   href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826" >汇编语言<i class="fas fa-external-link-alt"></i></a>进行编写的一般都是较为简练的小程序，其在执行方面较为便利，但汇编语言在程序方面较为冗长，所以具有较高的出错率。</p></blockquote><h3 id="机器语言"><a href="#机器语言" class="headerlink" title="机器语言"></a><strong>机器语言</strong></h3><blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;这种语言主要是利用<a class="link"   href="https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%BC%96%E7%A0%81/1758517" >二进制编码<i class="fas fa-external-link-alt"></i></a>进行指令的发送，能够被计算机快速地识别，其灵活性相对较高，且执行速度较为可观，机器语言与汇编语言之间的相似性较高，但由于具有局限性，所以在使用上存在一定的约束性。</p></blockquote><h3 id="高级语言"><a href="#高级语言" class="headerlink" title="高级语言"></a><strong>高级语言</strong></h3><blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;所谓的高级语言，其实是由多种编程语言结合之后的总称，其可以对多条指令进行整合，将其变为单条指令完成输送，其在操作细节指令以及中间过程等方面都得到了适当的简化，所以，整个程序更为简便，具有较强的操作性，而这种编码方式的简化，使得计算机编程对于相关工作人员的专业水平要求不断放宽。</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;对编程的理解&quot;&gt;&lt;a href=&quot;#对编程的理解&quot; class=&quot;headerlink&quot; title=&quot;对编程的理解&quot;&gt;&lt;/a&gt;&lt;div system=&quot;text-align: center;&quot;&gt;对编程的理解&lt;/div&gt;&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;什么是编程&quot;&gt;&lt;a href=&quot;#什么是编程&quot; class=&quot;headerlink&quot; title=&quot;什么是编程&quot;&gt;&lt;/a&gt;什么是编程&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; 编程是编定&lt;a class=&quot;link</summary>
       
     
     
